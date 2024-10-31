@@ -1,6 +1,6 @@
 class addToCartLocators{
      productFromList(productName){
-        return $(`//a[contains(@href,'182')]/span[contains(text(),'${productName}')]`)
+        return $(`//a[contains(@href,'')]/span[contains(text(),'${productName}')]`)
     }
     get productSize(){
        return $("//a[@href='#' and contains(text(), 'S')]");
